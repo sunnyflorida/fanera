@@ -1,0 +1,220 @@
+/*first carousel main page*/
+.jcarousel1-wrapper {
+    margin: 20px auto;
+    position: relative;
+    border: 10px solid #fff;
+    width: 85%;
+}
+
+.jcarousel1 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.jcarousel1 ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel1 li {
+    width: 200px;
+    float: left;
+    border: 1px solid #fff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.jcarousel1 img {
+    display: block;
+    width: 208px;
+    margin: 0 auto;
+    height: auto !important;
+}
+
+
+.jcarousel1-control-prev,
+.jcarousel1-control-next {
+    position: absolute;
+    width: 40px;
+    top: 0;
+    bottom: 0;
+    line-height: 160px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 50px;
+    background-color: rgb(230,230,230);
+}
+
+.jcarousel1-control-prev {
+    left: -50px;
+}
+
+.jcarousel1-control-next {
+    right: -50px;
+}
+.jcarousel1-control-prev:focus,
+.jcarousel1-control-next:focus,
+.jcarousel1-control-prev:hover,
+.jcarousel1-control-next:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(115,115,115);   
+}
+
+
+
+/*carusel onmain page BRANDS*/
+.jcarousel_b-wrapper {
+    margin: 20px auto;
+    position: relative;
+    width: 85%;
+}
+
+/** Carousel **/
+
+.jcarousel_b {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.jcarousel_b ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.jcarousel_b li {
+    width: auto;
+    height: 90px;
+    overflow: hidden;
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.jcarousel_b img {
+    display: block;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+.jcarousel_b-control-prev,
+.jcarousel_b-control-next {
+    position: absolute;
+    width: 40px;
+    top: 0;
+    bottom: 0;
+    line-height: 90px;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.jcarousel_b-control-prev {
+    left: -20px;
+}
+
+.jcarousel_b-control-next {
+    right: -33px;
+}
+.jcarousel_b-control-prev:focus,
+.jcarousel_b-control-next:focus,
+.jcarousel_b-control-prev:hover,
+.jcarousel_b-control-next:hover {
+    text-decoration: none; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*carusel on product page*/
+.jcarousel_p-wrapper {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    padding-right: 11px;
+}
+
+/** Carousel **/
+
+.jcarousel_p {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.jcarousel_p ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.jcarousel_p li {
+    width: 115px;
+    height: 90px;
+    overflow: hidden;
+    float: left;
+    border: 1px solid #fff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.jcarousel_p img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    height: auto !important;
+}
+
+
+.jcarousel_p-control-prev,
+.jcarousel_p-control-next {
+    position: absolute;
+    width: 40px;
+    top: 25px;
+    color: #333;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.jcarousel_p-control-prev {
+    left: -20px;
+}
+
+.jcarousel_p-control-next {
+    right: -33px;
+}
+.jcarousel_p-control-prev:focus,
+.jcarousel_p-control-next:focus,
+.jcarousel_p-control-prev:hover,
+.jcarousel_p-control-next:hover {
+    text-decoration: none; 
+}
+

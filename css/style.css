@@ -1,0 +1,111 @@
+@font-face {
+    font-family: SmthBold;
+    src: url('../fonts/MyriadPro-Semibold.otf');
+}
+@font-face {
+    font-family: MyriadRegular;
+    src: url('../fonts/MyriadPro-Regular.otf');
+}
+@font-face {
+    font-family: MyriadLight;
+    src: url('../fonts/Myriad_Pro_Light.ttf');
+}
+
+html, body, div, span, applet, object, iframe,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+article, aside, div, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+html, body {
+  font-family: Helvetica,Arial;
+  height: 100%;
+}
+body {
+	background: url('../img/fon.jpg');
+	background-size: 100% 100%;
+	height: 100%;
+}
+.container {
+	height: 100%;
+  	height: auto !important;
+  	min-height: 100%;
+}
+.big_wrapper {
+	background-color: rgba(255,255,255,0.7);
+	width: 85%;
+	display: block;
+	margin: 82px auto 0;
+}
+
+.logo_img_wrapper {
+	width: 100%;
+	overflow: hidden;
+}
+.logo_img_wrapper img {
+	width: 90%;
+	display: block;
+	margin: 70px auto 0;
+}
+h2,
+h3 {
+	font-size: 14px;
+	color: #000;
+	margin: 0;
+	line-height: 19px;
+	font-family: MyriadRegular;
+}
+strong {
+	color: rgb(125,76,44);
+	font-size: 19px;
+	font-family: MyriadRegular;
+	display: block;
+	margin-top: 30px;
+}
+table {
+	margin-bottom: 15px;
+}
+table tr td:first-child {
+	font-size: 19px;
+	color: rgb(125,76,44);
+	font-family: MyriadRegular;
+	vertical-align: top;
+	padding-top: 7px;
+	padding-right: 10px;
+}
+a {
+	font-size: 30px;
+	color: #000;
+	font-family: SmthBold;
+}
+a:hover {
+	color: #444;
+	text-decoration: none;
+}
+.right_block {
+	border-left: 1px solid rgb(159,159,159);
+	height: 100%;
+	padding-left: 30px;
+}
+.big_wrapper {
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
