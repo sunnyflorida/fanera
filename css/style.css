@@ -50,11 +50,7 @@ body {
   	min-height: 100%;
 }
 .big_wrapper {
-<<<<<<< HEAD
 	background-color: rgba(255,255,255,0.75);
-=======
-	background-color: rgba(255,255,255,0.7);
->>>>>>> bec0ad58cb9e77ac866c28a0487ab8d89bbf368a
 	width: 85%;
 	display: block;
 	margin: 82px auto 0;
@@ -84,7 +80,6 @@ strong {
 	display: block;
 	margin-top: 30px;
 }
-<<<<<<< HEAD
 .time_until_open {
 	margin-bottom: 15px;
 }
@@ -92,18 +87,6 @@ strong {
 	font-size: 19px;
 	color: rgb(125,76,44);
 	font-family: MyriadRegular;
-=======
-table {
-	margin-bottom: 15px;
-}
-table tr td:first-child {
-	font-size: 19px;
-	color: rgb(125,76,44);
-	font-family: MyriadRegular;
-	vertical-align: top;
-	padding-top: 7px;
-	padding-right: 10px;
->>>>>>> bec0ad58cb9e77ac866c28a0487ab8d89bbf368a
 }
 a {
 	font-size: 30px;
@@ -122,7 +105,7 @@ a:hover {
 .big_wrapper {
 	padding-top: 75px;
 	padding-bottom: 75px;
-<<<<<<< HEAD
+
 }
 @media screen and (max-width: 1211px) {
 
@@ -150,6 +133,4 @@ a:hover {
 	a {
 		font-size: 24px;
 	}
-=======
->>>>>>> bec0ad58cb9e77ac866c28a0487ab8d89bbf368a
 }
